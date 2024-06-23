@@ -93,7 +93,8 @@ header {
     justify-content: center;
     width: 100%;
     background-color: #236999;
-    padding: 1rem 0;
+    /* padding: 1rem 0; */
+    height: 88px;
 }
 
 .conten{
@@ -109,7 +110,7 @@ header {
 header div nav {
     display: flex;
     gap: 1rem;
-    /* padding: 0 1rem; */
+    /* padding: 0 1rem; */    
 }
 
 header div nav a {
@@ -270,6 +271,30 @@ section {
     color: white;
 }
 
+.separador {
+display: flex;
+padding: 1rem 1rem 0 1rem;
+width: 100%;
+max-width: 1200px;
+
+
+}
+ .separador_iz {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+
+
+ }
+
+ .separador_der {
+    display: flex;
+    justify-content: end;
+    gap: 0.5rem;
+    align-items: center;
+    width: 100%;
+ }
 
 
 
