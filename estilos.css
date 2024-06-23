@@ -294,4 +294,8 @@ section {
         padding: 1rem;
         max-width: 1200px;
     }
+    .banner_cover img {        
+        height: 150px;
+        
+    }
 }
