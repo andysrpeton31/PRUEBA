@@ -278,7 +278,9 @@ section {
 
 
 
-
+.logo {
+    height: 64px;
+}
 
 
 
@@ -297,5 +299,8 @@ section {
     .banner_cover img {        
         height: 200px;
         
+    }
+    .logo {
+        height: 48px;
     }
 }
